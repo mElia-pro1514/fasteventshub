@@ -1637,6 +1637,12 @@ h1 span,
     object-fit: contain;
 }
 
+/* Turn the dark logo artwork white when the dark theme is active. */
+[data-theme="dark"] .brand img,
+[data-theme="dark"] .footer-logo img {
+    filter: invert(1);
+}
+
 .footer-brand p,
 .footer-contact p {
     margin: 12px 0;
