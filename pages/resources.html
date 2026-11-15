@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resources | Campus Events Hub</title>
+    <link rel="icon" href="../images/fav-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/animation.css">
+    <link rel="stylesheet" href="../style/mobile.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a class="brand" href="../index.html"><img src="../images/LOGO.png" alt=""> </a>
+            <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+            <nav class="site-nav-links" aria-label="Main navigation">
+                <a class="nav-icon-link" href="../index.html"><i class="nav-symbol fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
+                <a class="nav-icon-link" href="news.html"><i class="nav-symbol fa-solid fa-newspaper" aria-hidden="true"></i><span>News</span></a>
+                <a class="nav-icon-link" href="events.html"><i class="nav-symbol fa-solid fa-tent" aria-hidden="true"></i><span>Events</span></a>
+                <a class="nav-icon-link" href="societies.html"><i class="nav-symbol fa-solid fa-landmark" aria-hidden="true"></i><span>Societies</span></a>
+                <a class="nav-icon-link active" href="resources.html" aria-current="page"><i class="nav-symbol fa-solid fa-folder" aria-hidden="true"></i><span>Resources</span></a>
+                <a class="nav-icon-link" href="contact.html"><i class="nav-symbol fa-solid fa-phone" aria-hidden="true"></i><span>Contact</span></a>
+                <button class="theme-toggle" type="button" aria-label="Use dark theme"><i class="fa-solid fa-sun" aria-hidden="true"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-shell">
+        <header class="page-intro">
+            <span class="eyebrow">THE USEFUL STUFF</span>
+            <h1>Make it happen, <span>smoothly.</span></h1>
+            <p>Everything you need to plan a great event or show up ready.</p>
+        </header>
+        <nav class="resource-tabs" aria-label="Resource sections">
+            <a class="resource-tab active" href="#venue-booking">Venue Booking</a>
+            <a class="resource-tab" href="#event-rules">Event Rules</a>
+            <a class="resource-tab" href="#downloadable-forms">Downloadable Forms</a>
+            <a class="resource-tab" href="#faqs">FAQs</a>
+        </nav>
+        <div class="resource-panels">
+            <section class="resource-panel" id="venue-booking">
+                <h2>Choose a space that fits.</h2>
+                <p>Start venue planning early. These sample steps help organizers prepare a clear request for the campus events team.</p>
+                <div class="resource-list">
+                    <article class="resource-item"><h3>Before you request</h3><p>Choose a preferred date and backup date, estimate attendance, and note any seating, sound, or display needs.</p></article>
+                    <article class="resource-item"><h3>Venue options</h3><p>Auditoriums suit larger talks and showcases; classrooms work well for workshops; the central lawn is ideal for outdoor gatherings.</p></article>
+                    <article class="resource-item"><h3>Booking contact</h3><p>Send your society, event title, expected attendance, and preferred setup to the campus events department.</p></article>
+                </div>
+            </section>
+            <section class="resource-panel" id="event-rules">
+                <h2>Good events start with good planning.</h2>
+                <p>Use this quick guide to keep events safe, welcoming, and straightforward to run.</p>
+                <div class="resource-list">
+                    <article class="resource-item"><h3>Plan ahead</h3><p>Submit proposals early and wait for venue confirmation before announcing a final location.</p></article>
+                    <article class="resource-item"><h3>Make it welcoming</h3><p>Share clear event information, consider accessibility needs, and provide a point of contact for attendees.</p></article>
+                    <article class="resource-item"><h3>Leave it ready</h3><p>Follow venue guidance, keep walkways clear, and leave the space clean after the event.</p></article>
+                </div>
+            </section>
+            <section class="resource-panel" id="downloadable-forms">
+                <h2>Useful forms and checklists.</h2>
+                <p>Demo resources for the project website. Replace these links with approved campus forms when available.</p>
+                <div class="resource-list">
+                    <article class="resource-item"><h3>Event proposal checklist</h3><p>A planning checklist for the details organizers should gather before submitting an event proposal.</p><a class="resource-download" href="../data/event-proposal-checklist.txt" download aria-label="Download event proposal checklist"><i class="fa-solid fa-folder" aria-hidden="true"></i><span>Download checklist</span></a></article>
+                    <article class="resource-item"><h3>Venue setup notes</h3><p>A simple reminder list for room layout, equipment, access, and cleanup planning.</p><a class="resource-download" href="../data/venue-setup-checklist.txt" download aria-label="Download venue setup notes"><i class="fa-solid fa-folder" aria-hidden="true"></i><span>Download setup notes</span></a></article>
+                </div>
+            </section>
+            <section class="resource-panel" id="faqs">
+                <h2>A few quick answers.</h2>
+                <p>Common questions from students planning or attending campus events.</p>
+                <div class="resource-list">
+                    <article class="resource-item"><h3>Can any student propose an event?</h3><p>Yes. Share your idea through the proposal form. A society or organizer contact helps the events team follow up.</p></article>
+                    <article class="resource-item"><h3>How do I find events by type?</h3><p>Use the category filters on the Events page to browse academic, cultural, sports, and career events.</p></article>
+                    <article class="resource-item"><h3>Where do I ask a question?</h3><p>Use the feedback form on the Contact page to send a message to the demo events department.</p></article>
+                </div>
+            </section>
+        </div>
+    </main>
+  
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <section class="footer-brand">
+                 <a class="footer-logo" href="../index.html"><img src="../images/LOGO deatil.png" alt="Campus Events Hub logo"><span>Campus Events Hub</span></a>
+                <p>Find your people. Make a campus moment.</p>
+                <span>© 2026 Campus Events Hub</span>
+            </section>
+            <nav class="footer-pages" aria-label="Footer navigation">
+                <h2>Explore</h2><a href="events.html">Upcoming events</a><a href="news.html">Campus news</a><a href="societies.html">Societies</a><a href="resources.html">Resources</a>
+            </nav>
+            <section class="footer-contact">
+                <h2>Get in touch</h2><p>Questions or an event idea? Send us a message.</p>
+                <a class="footer-email" href="mailto:events@example.com">events@example.com ↗</a>
+                <form class="footer-signup">
+                    <label class="visually-hidden" for="footer-email">Email for campus updates</label>
+                    <input id="footer-email" type="email" placeholder="Your email address" required>
+                    <button type="submit" aria-label="Subscribe to campus updates">→</button>
+                </form>
+                <p class="form-success d-none" role="status">Thanks for subscribing to campus updates.</p>
+            </section>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

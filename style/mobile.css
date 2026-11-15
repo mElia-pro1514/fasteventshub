@@ -1,0 +1,464 @@
+@media(max-width:991.98px) {
+    .nav-inner {
+        gap: 16px;
+        padding: 12px 20px
+    }
+
+    .brand {
+        min-width: unset
+    }
+
+    .site-nav-links {
+        gap: 14px
+    }
+
+    .hero-shell {
+        min-height: auto;
+        padding-top: 70px;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px
+    }
+
+    .hero-art {
+        height: 390px
+    }
+
+    .hero-note {
+        padding: 25px
+    }
+
+    .tape-one {
+        top: 80px
+    }
+
+    .tape-two {
+        bottom: 65px
+    }
+
+    .detail-hero {
+        gap: 28px
+    }
+
+    .detail-poster {
+        height: 360px
+    }
+}
+
+@media(max-width:767.98px) {
+    .nav-inner {
+        flex-wrap: wrap
+    }
+
+    .brand {
+        flex: 1
+    }
+
+    .navbar-toggler {
+        border-color: var(--line);
+        filter: invert(1)
+    }
+
+    [data-theme="light"] .navbar-toggler {
+        filter: none
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%
+    }
+
+    .nav-actions {
+        margin: 10px 0 4px
+    }
+
+    .nav-proposal {
+        display: none
+    }
+
+    .site-nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        padding: 8px 0
+    }
+
+    .site-nav-links a {
+        white-space: nowrap;
+        font-size: 13px;
+        padding: 8px 2px
+    }
+
+    .hero-shell {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 58px;
+        padding-bottom: 30px
+    }
+
+    .hero-shell h1 {
+        font-size: clamp(48px, 13vw, 72px)
+    }
+
+    .hero-art {
+        height: 360px;
+        margin-top: 10px
+    }
+
+    .hero-note {
+        max-width: 340px
+    }
+
+    .tape-one {
+        top: 52px
+    }
+
+    .tape-two {
+        bottom: 48px
+    }
+
+    .section-space {
+        padding-top: 32px;
+        padding-bottom: 42px
+    }
+
+    .section-heading {
+        align-items: start
+    }
+
+    .section-heading h2 {
+        font-size: 29px
+    }
+
+    .society-cta {
+        padding: 33px 26px;
+        align-items: start;
+        flex-direction: column
+    }
+
+    .cta-spark {
+        right: 10px
+    }
+
+    .page-shell {
+        padding-top: 45px;
+        padding-bottom: 60px
+    }
+
+    .page-intro-row {
+        align-items: start;
+        flex-direction: column
+    }
+
+    .events-toolbar {
+        align-items: stretch;
+        flex-direction: column
+    }
+
+    .search-field {
+        width: 100%
+    }
+
+    .detail-hero {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch
+    }
+
+    .detail-poster {
+        height: 300px
+    }
+
+    .event-carousel .carousel-item {
+        height: 340px
+    }
+
+    .carousel-caption {
+        bottom: 35px
+    }
+
+    .contact-layout {
+        grid-template-columns: 1fr
+    }
+
+    .resource-list {
+        grid-template-columns: 1fr
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        align-items: start
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media(max-width:480px) {
+    .brand {
+        font-size: 14px
+    }
+
+    .brand img {
+        width: 30px;
+        height: 30px
+    }
+
+    .theme-toggle {
+        padding: 8px 10px;
+        font-size: 10px
+    }
+
+    .nav-inner {
+        padding: 10px 14px
+    }
+
+    .hero-actions {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px
+    }
+
+    .hero-art {
+        height: 320px
+    }
+
+    .hero-note {
+        padding: 22px
+    }
+
+    .note-title {
+        font-size: 25px
+    }
+
+    .tape {
+        height: 35px;
+        font-size: 9px
+    }
+
+    .tape-one {
+        top: 50px
+    }
+
+    .tape-two {
+        bottom: 48px
+    }
+
+    .event-poster {
+        height: 185px
+    }
+
+    .page-intro h1 {
+        font-size: 47px
+    }
+
+    .form-panel,
+    .contact-aside {
+        padding: 21px
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr
+    }
+
+    .detail-info-grid {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: start
+    }
+
+    .carousel-caption p {
+        font-size: 12px
+    }
+}
+
+@media(max-width:991.98px) {
+    .nav-inner {
+        position: relative;
+        flex-wrap: wrap
+    }
+
+    .mobile-nav-toggle {
+        width: 42px;
+        height: 42px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 50%;
+        background: var(--surface);
+        color: var(--paper);
+        font-size: 19px
+    }
+
+    .site-nav-links {
+        display: none;
+        flex-basis: 100%;
+        justify-content: center;
+        gap: 7px;
+        padding: 10px 0 3px
+    }
+
+    .site-nav-links.nav-open {
+        display: flex
+    }
+
+    .nav-icon-link.active {
+        width: auto
+    }
+
+    .nav-icon-link {
+        width: 40px;
+        height: 40px
+    }
+
+    .nav-icon-link.active {
+        padding: 0 11px
+    }
+
+    .home-intro {
+        min-height: 0;
+        padding-top: 60px;
+        padding-bottom: 35px
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 28px
+    }
+
+    .footer-contact {
+        grid-column: 1/-1
+    }
+
+    .modal-event-grid {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media(max-width:575.98px) {
+    .nav-inner {
+        padding: 10px 15px
+    }
+
+    .brand img {
+        width: 42px;
+        height: 42px
+    }
+
+    .site-nav-links.nav-open {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center
+    }
+
+    .nav-icon-link,
+    .theme-toggle {
+        width: 42px;
+        height: 42px
+    }
+
+    .nav-icon-link.active {
+        padding: 0 10px
+    }
+
+    .home-intro h1 {
+        font-size: clamp(38px, 11vw, 56px)
+    }
+
+    .home-intro>p {
+        font-size: 14px
+    }
+
+    .home-countdown {
+        grid-template-columns: 1fr 46px;
+        gap: 10px;
+        margin-top: 30px;
+        padding: 13px
+    }
+
+    .countdown-date {
+        grid-column: 1/-1;
+        grid-row: 1;
+        min-height: 70px
+    }
+
+    .countdown-clock {
+        grid-column: 1;
+        grid-row: 2;
+        gap: 7px
+    }
+
+    .countdown-clock b {
+        font-size: 25px
+    }
+
+    .countdown-arrow {
+        grid-column: 2;
+        grid-row: 2;
+        width: 42px;
+        height: 42px
+    }
+
+    .large-event-countdown {
+        gap: 5px
+    }
+
+    .large-event-countdown div {
+        min-width: 0;
+        flex: 1;
+        padding: 11px 5px
+    }
+
+    .large-event-countdown b {
+        font-size: 30px
+    }
+
+    .large-event-countdown span {
+        font-size: 8px
+    }
+
+    .large-event-countdown i {
+        padding-top: 16px;
+        font-size: 18px
+    }
+
+    .announcement-band {
+        min-height: 48px
+    }
+
+    .announcement-track {
+        font-size: 10px
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+        padding: 26px 20px
+    }
+
+    .footer-contact {
+        grid-column: 1/-1
+    }
+
+    .modal-event-grid {
+        grid-template-columns: 1fr
+    }
+
+    .modal-event-image .event-poster {
+        height: 190px;
+        min-height: 0
+    }
+
+    .modal-registration input {
+        min-width: 100%;
+        flex-basis: 100%
+    }
+
+    .modal-registration button {
+        width: 100%
+    }
+}

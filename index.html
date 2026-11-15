@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover campus events, student societies, and resources at FAST Islamabad.">
+  <title>Campus Events Hub</title>
+  <link rel="icon" href="images/fav-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/animation.css">
+  <link rel="stylesheet" href="style/mobile.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="images/LOGO.png" alt="">
+      </a>
+      <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="site-nav-links" aria-label="Main navigation">
+        <a class="nav-icon-link active" href="index.html" aria-current="page"><i class="nav-symbol fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
+        <a class="nav-icon-link" href="pages/news.html"><i class="nav-symbol fa-solid fa-newspaper" aria-hidden="true"></i><span>News</span></a>
+        <a class="nav-icon-link" href="pages/events.html"><i class="nav-symbol fa-solid fa-tent" aria-hidden="true"></i><span>Events</span></a>
+        <a class="nav-icon-link" href="pages/societies.html"><i class="nav-symbol fa-solid fa-landmark" aria-hidden="true"></i><span>Societies</span></a>
+        <a class="nav-icon-link" href="pages/resources.html"><i class="nav-symbol fa-solid fa-folder" aria-hidden="true"></i><span>Resources</span></a>
+        <a class="nav-icon-link" href="pages/contact.html"><i class="nav-symbol fa-solid fa-phone" aria-hidden="true"></i><span>Contact</span></a>
+        <button class="theme-toggle" type="button" aria-label="Use dark theme"><i class="fa-solid fa-sun" aria-hidden="true"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="home-intro container">
+      <h1>Make room for <span>what moves you.</span></h1>
+      <p>Find your people, try something new, and make the most of every moment on campus.</p>
+      <div class="home-countdown" aria-label="Countdown to the next campus event">
+        <div class="countdown-date">
+          <time class="date-calendar" id="home-next-date" datetime="2026-12-05T10:00:00"
+            aria-label="Next event date">
+            <span>Dec</span>
+            <strong>05</strong>
+            <span>2026</span>
+          </time>
+        </div>
+        <div class="countdown-clock" id="small-countdown" aria-label="Time remaining">
+          <div><b data-time-part>00</b><small>days</small></div><i>:</i>
+          <div><b data-time-part>00</b><small>hrs</small></div><i>:</i>
+          <div><b data-time-part>00</b><small>min</small></div><i>:</i>
+          <div><b data-time-part>00</b><small>sec</small></div>
+        </div>
+        <a class="countdown-arrow" href="pages/events.html" aria-label="View upcoming events">↗</a>
+      </div>
+    </section>
+
+    <div class="announcement-band" aria-label="Campus announcement ticker">
+      <div class="announcement-track">
+        <span>✦ ANNOUNCEMENT&nbsp; · &nbsp;Winter Code Jam registrations are open&nbsp; · &nbsp;Find your next campus moment&nbsp; · &nbsp;</span>
+        <span aria-hidden="true">✦ ANNOUNCEMENT&nbsp; · &nbsp;Winter Code Jam registrations are open&nbsp; · &nbsp;Find your next campus moment&nbsp; · &nbsp;</span>
+      </div>
+    </div>
+
+    <section class="container section-space" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <div><span class="eyebrow">SAVE YOUR SPOT</span><h2 id="featured-title">Upcoming events</h2></div>
+        <a href="pages/events.html" class="text-link">All events <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-xl-4">
+          <article class="event-card" data-event-card data-event-date="Dec 05, 2026" data-event-time="10:00 AM" data-event-venue="Main Auditorium" data-organizer="Computing Society" data-description="A friendly day-long build sprint for curious makers. Form a team, bring an idea, and make a working prototype before the final showcase.">
+            <a class="event-open" href="#event-dialog" data-event-details aria-label="View Winter Code Jam details">
+              <div class="event-poster">
+                <div class="poster-fallback"><span>Winter Code Jam</span></div>
+                <img src="images/event1.webp" alt="Computer components on a work table">
+              </div>
+              <div class="event-card-body">
+                <span class="category-pill category-academic">Academic</span>
+                <h3>Winter Code Jam</h3>
+                <div class="event-meta">
+                  <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> Dec 05, 2026</span>
+                  <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 10:00 AM</span>
+                  <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Main Auditorium</span>
+                </div>
+              </div>
+            </a>
+            <div class="event-card-body event-card-footer">
+              <div class="event-stats">
+                <button class="stat-button" type="button" data-like-button aria-pressed="false" aria-label="Like Winter Code Jam"><i class="fa-regular fa-heart" aria-hidden="true"></i><span data-like-count>128</span></button>
+                <span aria-label="842 views"><i class="fa-regular fa-eye" aria-hidden="true"></i><span data-view-count>842</span></span>
+                <span aria-label="64 registered"><i class="fa-solid fa-user" aria-hidden="true"></i><span data-registration-count>64</span></span>
+              </div>
+              <button class="view-event" type="button" data-event-details>Details ↗</button>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <article class="event-card" data-event-card data-event-date="Dec 12, 2026" data-event-time="4:00 PM" data-event-venue="Central Lawn" data-organizer="Cultural Collective" data-description="An evening of music, student performances, food stalls, and traditions from across our community. Bring a friend and stay for the whole show.">
+            <a class="event-open" href="#event-dialog" data-event-details aria-label="View Rang-e-Campus details">
+              <div class="event-poster">
+                <div class="poster-fallback"><span>Rang-e-Campus</span></div>
+                <img src="images/event3.jpg" alt="A lively outdoor music event">
+              </div>
+              <div class="event-card-body">
+                <span class="category-pill category-cultural">Cultural</span>
+                <h3>Rang-e-Campus</h3>
+                <div class="event-meta">
+                  <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> Dec 12, 2026</span>
+                  <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 4:00 PM</span>
+                  <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Central Lawn</span>
+                </div>
+              </div>
+            </a>
+            <div class="event-card-body event-card-footer">
+              <div class="event-stats">
+                <button class="stat-button" type="button" data-like-button aria-pressed="false" aria-label="Like Rang-e-Campus"><i class="fa-regular fa-heart" aria-hidden="true"></i><span data-like-count>204</span></button>
+                <span aria-label="1320 views"><i class="fa-regular fa-eye" aria-hidden="true"></i><span data-view-count>1320</span></span>
+                <span aria-label="187 registered"><i class="fa-solid fa-user" aria-hidden="true"></i><span data-registration-count>187</span></span>
+              </div>
+              <button class="view-event" type="button" data-event-details>Details ↗</button>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <article class="event-card" data-event-card data-event-date="Jan 20, 2027" data-event-time="11:00 AM" data-event-venue="Innovation Center" data-organizer="Career Development Office" data-description="Meet employers, alumni, and early-career mentors. Bring your questions and a fresh copy of your CV for practical feedback.">
+            <a class="event-open" href="#event-dialog" data-event-details aria-label="View Career Connections details">
+              <div class="event-poster">
+                <div class="poster-fallback"><span>Career Connections</span></div>
+                <img src="images/campus.jpg" alt="Students meeting with a career mentor">
+              </div>
+              <div class="event-card-body">
+                <span class="category-pill category-career">Career</span>
+                <h3>Career Connections</h3>
+                <div class="event-meta">
+                  <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> Jan 20, 2027</span>
+                  <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 11:00 AM</span>
+                  <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Innovation Center</span>
+                </div>
+              </div>
+            </a>
+            <div class="event-card-body event-card-footer">
+              <div class="event-stats">
+                <button class="stat-button" type="button" data-like-button aria-pressed="false" aria-label="Like Career Connections"><i class="fa-regular fa-heart" aria-hidden="true"></i><span data-like-count>96</span></button>
+                <span aria-label="760 views"><i class="fa-regular fa-eye" aria-hidden="true"></i><span data-view-count>760</span></span>
+                <span aria-label="112 registered"><i class="fa-solid fa-user" aria-hidden="true"></i><span data-registration-count>112</span></span>
+              </div>
+              <button class="view-event" type="button" data-event-details>Details ↗</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section-space section-divider" aria-labelledby="societies-title">
+      <div class="section-heading">
+        <div><span class="eyebrow">FIND YOUR PEOPLE</span><h2 id="societies-title">Popular societies</h2></div>
+        <a href="pages/societies.html" class="text-link">Explore societies <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-xl-4">
+          <article class="society-card">
+            <div class="society-cover" style="background:url(images/ai.webp); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+            <div class="society-card-content">
+              <div class="society-logo">FIDS</div>
+              <span class="society-category society-technical">Technical</span>
+              <h3>FAST Intelligence & Data Society</h3>
+              <p>Build together through coding sessions, project showcases, and welcoming peer learning.</p>
+              <div class="society-card-foot">
+                <span>Join the community</span>
+                <div class="society-socials">
+                  <a href="https://www.instagram.com/fidstech/" aria-label="Computing Society on Instagram"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://facebook.com" aria-label="Computing Society on Facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="mailto:computing@example.com" aria-label="Email Computing Society"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <article class="society-card">
+            <div class="society-cover" style="background:url(images/cs.webp); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+            <div class="society-card-content">
+              <div class="society-logo">CS</div>
+              <span class="society-category society-arts">Arts</span>
+              <h3>Computing Society </h3>
+              <p>A home for makers, performers, photographers, and anyone who likes to create.</p>
+              <div class="society-card-foot">
+                <span>Join the community</span>
+                <div class="society-socials">
+                  <a href="https://www.instagram.com/fidstech/" aria-label="Campus Arts on Instagram"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://facebook.com" aria-label="Campus Arts on Facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="mailto:arts@example.com" aria-label="Email Campus Arts"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <article class="society-card">
+            <div class="society-cover" style="background:url(images/se.webp); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+            <div class="society-card-content">
+              <div class="society-logo">SE</div>
+              <span class="society-category society-sports">Sports</span>
+              <h3>Software Engenering Scocity</h3>
+              <p>Try a new sport, train with friends, and represent campus with a little team spirit.</p>
+              <div class="society-card-foot">
+                <span>Join the community</span>
+                <div class="society-socials">
+                  <a href="https://www.instagram.com/fidstech/" aria-label="Athletics Club on Instagram"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://facebook.com" aria-label="Athletics Club on Facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="mailto:athletics@example.com" aria-label="Email Athletics Club"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section-space section-divider" aria-labelledby="big-countdown-heading">
+      <div class="big-countdown-panel">
+        <span class="eyebrow">COUNTDOWN TO THE NEXT EVENT</span>
+        <h2 id="big-countdown-heading">Winter Code Jam</h2>
+        <div class="large-event-countdown" id="large-countdown" aria-label="Time remaining until the next event">
+          <div><b data-time-part>00</b><span>Days</span></div><i>:</i>
+          <div><b data-time-part>00</b><span>Hours</span></div><i>:</i>
+          <div><b data-time-part>00</b><span>Minutes</span></div><i>:</i>
+          <div><b data-time-part>00</b><span>Seconds</span></div>
+        </div>
+        <a href="pages/events.html" class="text-link">Browse upcoming events <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <section class="footer-brand">
+         <a class="footer-logo" href="../index.html"><img src="../images/LOGO deatil.png" alt="Campus Events Hub logo"><span>Campus Events Hub</span></a>
+        <p>Find your people. Make a campus moment.</p>
+        <span>© 2026 Campus Events Hub</span>
+      </section>
+      <nav class="footer-pages" aria-label="Footer navigation">
+        <h2>Explore</h2>
+        <a href="pages/events.html">Upcoming events</a>
+        <a href="pages/news.html">Campus news</a>
+        <a href="pages/societies.html">Societies</a>
+        <a href="pages/resources.html">Resources</a>
+      </nav>
+      <section class="footer-contact">
+        <h2>Get in touch</h2>
+        <p>Questions or an event idea? Send us a message.</p>
+        <a class="footer-email" href="mailto:events@example.com">events@example.com ↗</a>
+        <form class="footer-signup">
+          <label class="visually-hidden" for="footer-email">Email for campus updates</label>
+          <input id="footer-email" type="email" placeholder="Your email address" required>
+          <button type="submit" aria-label="Subscribe to campus updates">→</button>
+        </form>
+        <p class="form-success d-none" role="status">Thanks for subscribing to campus updates.</p>
+      </section>
+    </div>
+  </footer>
+  <dialog class="event-dialog" id="event-dialog" aria-labelledby="event-dialog-title">
+    <div class="event-modal-content">
+      <div class="event-dialog-header">
+        <span class="eyebrow">EVENT DETAILS</span>
+        <button class="event-dialog-close" type="button" aria-label="Close event details">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="modal-event-grid">
+        <div class="modal-event-image">
+          <div class="event-poster">
+            <div class="poster-fallback"><span id="event-dialog-poster-title"></span></div>
+            <img id="event-dialog-image" alt="">
+          </div>
+        </div>
+        <div>
+          <span class="category-pill" id="event-dialog-category"></span>
+          <h2 id="event-dialog-title"></h2>
+          <p id="event-dialog-description"></p>
+          <div class="detail-info-grid">
+            <div class="info-box"><small>Date</small><b id="event-dialog-date"></b></div>
+            <div class="info-box"><small>Time</small><b id="event-dialog-time"></b></div>
+            <div class="info-box"><small>Venue</small><b id="event-dialog-venue"></b></div>
+            <div class="info-box"><small>Organizer</small><b id="event-dialog-organizer"></b></div>
+          </div>
+          <div class="event-stats modal-stats">
+            <span><i class="fa-regular fa-heart" aria-hidden="true"></i><span id="event-dialog-likes"></span> likes</span>
+            <span><i class="fa-regular fa-eye" aria-hidden="true"></i><span id="event-dialog-views"></span> views</span>
+            <span><i class="fa-solid fa-user" aria-hidden="true"></i><span id="event-dialog-registrations"></span> registered</span>
+          </div>
+          <div class="modal-registration">
+            <h3>Interested in attending?</h3>
+            <form id="event-registration-form" class="event-registration-form">
+              <label>Your name<input name="name" autocomplete="name" required></label>
+              <label>Email address<input name="email" type="email" autocomplete="email" required></label>
+              <button class="btn btn-accent" id="event-register" type="submit">Register for event</button>
+            </form>
+            <p class="form-success" id="event-registration-status" role="status" hidden>
+              Registration counted for this visit only; refreshing the page resets it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
